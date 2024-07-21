@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecb04b18.css",
+    "main.js": "/static/js/main.1e7d97a6.js",
+    "static/media/video3.mp4": "/static/media/video3.39e6c79bffb375ae929a.mp4",
+    "static/media/img-3.jpg": "/static/media/img-3.2dda27396b42f059752e.jpg",
+    "static/media/video1.mp4": "/static/media/video1.e20a2e2d96140231bfd0.mp4",
+    "static/media/video4.mp4": "/static/media/video4.c57aaad094fcda3e06fe.mp4",
+    "static/media/img-2.jpg": "/static/media/img-2.f3ac5bdb2334a2620c93.jpg",
+    "static/media/video2.mp4": "/static/media/video2.59e75226d30ad48f9ede.mp4",
+    "static/media/Sky.gif": "/static/media/Sky.446fe5e40ac0d556a22d.gif",
+    "static/media/img-1.jpg": "/static/media/img-1.4cca78ae4b664dcdff42.jpg",
+    "static/media/home.svg": "/static/media/home.d7a9953a91eb7795feb36985ac59815e.svg",
+    "static/media/VulnLearn.png": "/static/media/VulnLearn.e0f25310d56deee68d91.png",
+    "static/media/vulnScanning.png": "/static/media/vulnScanning.580c985ee97c60cb1c63.png",
+    "static/media/CodeEditor.jpg": "/static/media/CodeEditor.f30850dc7380e638efe0.jpg",
+    "static/media/pending_users.svg": "/static/media/pending_users.032dc87e6faefb40bdef1111224186d3.svg",
+    "static/media/rejected_users.svg": "/static/media/rejected_users.604d9f31aa4134a0f360c2ad799e0dbc.svg",
+    "static/media/profuser.svg": "/static/media/profuser.7f722179b79998822963bcc6b93c14a7.svg",
+    "index.html": "/index.html",
+    "main.ecb04b18.css.map": "/static/css/main.ecb04b18.css.map",
+    "main.1e7d97a6.js.map": "/static/js/main.1e7d97a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecb04b18.css",
+    "static/js/main.1e7d97a6.js"
+  ]
+}

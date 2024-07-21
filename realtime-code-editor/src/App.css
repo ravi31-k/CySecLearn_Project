@@ -1,0 +1,376 @@
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formWrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.homePageLogo {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+    background: #018ABD;
+    width: 100px;
+    margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+    background: #004581;
+}
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.createNewBtn {
+    color: #018ABD;
+    text-decoration: none;
+    border-bottom: 1px solid #018ABD;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+    color: #ffff;
+    border-color: #ffff;
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px auto 400px;
+    overflow-x: hidden;
+    
+}
+.middle-column {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.scrollable-content {
+  width: 100%; /* Ensure the content takes up all available width */
+  white-space: nowrap; /* Prevent content from wrapping */
+  /* You may need to set a specific width for this container to enable scrolling */
+  /* For example: width: 1000px; */
+}
+
+.aside {
+    background: #ffff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.asideInner {
+    flex: 1;
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.userName {
+    margin-top: 10px;
+}
+
+
+
+.leaveBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+.CodeMirror {
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+/* Chat container styles */
+.chat-container {
+    width: auto; /* Let the width be determined by content */
+    height: 98%; /* Set height to 100% */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /* Chat header styles */
+  .chat-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Chat messages styles */
+  .chat-messages ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .message-info {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .message-text {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  /* Chat input styles */
+  .chat-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .chat-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #0056b3;
+  }
+  .chat-messages-container {
+    height: 80vh; /* Set a fixed height for the chat messages container */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  }
+  
+  /* Chat messages styles (no changes here) */
+  .chat-messages ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* Chat container styles */
+.chat-container {
+    width: auto; /* Let the width be determined by content */
+    height: 90%; /* Set height to 100% */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: hidden;
+  }
+  
+  /* Chat header styles */
+  .chat-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Chat messages container styles */
+  .chat-messages-container {
+    height: 82vh; /* Set a fixed height for the chat messages container */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  /* Highlighted message styles */
+  .no-messages {
+    background-color: #f0f0f0; /* Add a background color to highlight the message */
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Chat messages styles */
+  .chat-messages-container {
+    height: 82vvh; /* Set a fixed height for the chat messages container */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  }
+  
+  /* Chat messages styles */
+  .chat-messages ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .message-info {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .message-text {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  /* Chat input styles */
+  .chat-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .chat-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #0056b3;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-control {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-msg {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    padding: 1px 2px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  .pdf-container {
+    margin-top: 20px;
+  }
+  
+  .no-pdf-msg {
+    color: #777;
+  }
+  
