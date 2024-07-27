@@ -1,5 +1,6 @@
 # CySecLearn_Project
->>>>>>> origin/main
+github.com/malviyaravi/CySecLearn_Project
+
 
 # Project Setup and Running Instructions
 
@@ -122,3 +123,4 @@ Ensure that your application can connect to the database:
 - [npm Documentation](https://docs.npmjs.com/)
 
 Feel free to reach out if you have any questions or encounter issues!
+github.com/malviyaravi
