@@ -1,20 +1,20 @@
 # CySecLearn_Project
-# Introduction
+## Introduction
 Welcome To CySecLearn
 CySecLearn is an innovative cybersecurity learning platform designed to bridge the gap between theoretical knowledge and practical application. Dive into our interactive components, including a real-time collaborative editor, IDS simulator, OWASP ZAP simulator, cybersecurity chatbot, and email spam detector. Enhance your hands-on learning experience and equip yourself with the critical skills needed to tackle real-world cybersecurity challenges. Let's embark on this journey to deepen your understanding and skills in cybersecurity together!
 
 
-# Project Setup and Running Instructions
+### Project Setup and Running Instructions
 
-## Prerequisites
+### Prerequisites
 
 Before you start, ensure that you have the following installed:
 - [Node.js](https://nodejs.org/) (which includes npm)
 - [OWASP ZAP](https://www.zaproxy.org/)
 
-## Steps to Run This Code in VSCode
+### Steps to Run This Code in VSCode
 
-### 1. Install Dependencies for Realtime Editor
+#### 1. Install Dependencies for Realtime Editor
 
 To set up the environment for the `realtimeeditor`, follow these steps:
 
@@ -31,7 +31,7 @@ To set up the environment for the `realtimeeditor`, follow these steps:
      npm install
      ```
 
-### 2. Set Up OWASP ZAP
+#### 2. Set Up OWASP ZAP
 
 OWASP ZAP is used for security scanning. Follow these steps to configure and run ZAP:
 
@@ -54,7 +54,7 @@ OWASP ZAP is used for security scanning. Follow these steps to configure and run
      api_key = 'your_zap_api_key'
      ```
 
-### 3. Start the Application
+#### 3. Start the Application
 
 To get the application up and running, follow these steps:
 
@@ -88,7 +88,7 @@ To get the application up and running, follow these steps:
      npm start
      ```
 
-### 4. Configure Database Connection
+#### 4. Configure Database Connection
 
 Ensure that your application can connect to the database:
 
@@ -107,7 +107,7 @@ Ensure that your application can connect to the database:
      };
      ```
 
-## Troubleshooting
+### Troubleshooting
 
 - **OWASP ZAP Issues:**
   - Ensure that ZAP is properly installed and that there are no network issues blocking its connection.
@@ -118,7 +118,7 @@ Ensure that your application can connect to the database:
 - **Database Connection Problems:**
   - Check that the database service is running and that the connection details in `connection.js` are correct.
 
-## Additional Resources
+### Additional Resources
 
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [OWASP ZAP Documentation](https://www.zaproxy.org/docs/)
